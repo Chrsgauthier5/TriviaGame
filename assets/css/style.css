@@ -1,0 +1,32 @@
+
+.Q1 h1{
+    margin-bottom: 200px;
+}
+.container{
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 100px;
+}
+.container h1{
+    margin-bottom: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: lightskyblue;
+    background-color: black;
+    font-stretch: ultra-expanded;
+    font-size: 500%;
+
+}
+body{
+    background-image: url(../images/disneyBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container h4{
+    margin-bottom: 25px;
+}
+.container img{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
