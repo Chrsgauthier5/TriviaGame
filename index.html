@@ -37,14 +37,16 @@
         <br>
         <div class="timer"></div>
         <br>
-        <div class="correctAnswer"></div>
+        <div id="correctAnswerLionKing" class="correctAnswer"></div>
         <br>
         <img src="assets/images/rafiki.jpg" id="rafiki">
         <br>
-        <button id="lionKingQ1">1</button>
-        <button id="lionKingQ2">2</button>
-        <button id="lionKingQ3">3</button>
-        <button id="lionKingQ4">4</button>
+        <div id="lionKingAnswers">
+            <button id="lionKingQ1">1</button>
+            <button id="lionKingQ2">2</button>
+            <button id="lionKingQ3">3</button>
+            <button id="lionKingQ4">4</button>
+        </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------->
     <div class="container p-3 mb-2 bg-light text-dark questions" id="Q2">
@@ -55,14 +57,16 @@
         <br>
         <div class="timer"></div>
         <br>
-        <div class="correctAnswer"></div>
+        <div id="correctAnswerAladdin" class="correctAnswer"></div>
         <br>
-        <img src="assets/images/genie.jpg">
+        <img src="assets/images/genie.jpg" id="genieImage">
         <br>
-        <button id="aladdinQ1">1</button>
-        <button id="aladdinQ2">2</button>
-        <button id="aladdinQ3">3</button>
-        <button id="aladdinQ4">4</button>
+        <div id="aladdinAnswers">
+            <button id="aladdinQ1">1</button>
+            <button id="aladdinQ2">2</button>
+            <button id="aladdinQ3">3</button>
+            <button id="aladdinQ4">4</button>
+        </div>
 
     </div>
     <!-------------------------------------------------------------------------------------------------------------------->
@@ -72,13 +76,18 @@
 
         <h2 id="thirdQuestion"></h2>
         <br>
-        <img src="assets/images/slinky.jpg">
+        <div class="timer"></div>
         <br>
-        <button id="toyStoryQ1">1</button>
-        <button id="toyStoryQ2">2</button>
-        <button id="toyStoryQ3">3</button>
-        <button id="toyStoryQ4">4</button>
-
+        <div id="correctAnswerToyStory" class="correctAnswer"></div>
+        <br>
+        <img src="assets/images/slinky.jpg" id="slinkyImage">
+        <br>
+        <div id="toyStoryAnswers">
+            <button id="toyStoryQ1">1</button>
+            <button id="toyStoryQ2">2</button>
+            <button id="toyStoryQ3">3</button>
+            <button id="toyStoryQ4">4</button>
+        </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------->
     <div class="container p-3 mb-2 bg-light text-dark questions" id="Q4">
@@ -87,13 +96,18 @@
 
         <h2 id="fourthQuestion"></h2>
         <br>
-        <img src="assets/images/waltdisney.jpg">
+        <div class="timer"></div>
         <br>
-        <button id="jungleBookQ1">1</button>
-        <button id="jungleBookQ2">2</button>
-        <button id="jungleBookQ3">3</button>
-        <button id="jungleBookQ4">4</button>
-
+        <div id="correctAnswerJungleBook" class="correctAnswer"></div>
+        <br>
+        <img src="assets/images/waltdisney.jpg" id="waltImage">
+        <br>
+        <div id="jungleBookAnswers">
+            <button id="jungleBookQ1">1</button>
+            <button id="jungleBookQ2">2</button>
+            <button id="jungleBookQ3">3</button>
+            <button id="jungleBookQ4">4</button>
+        </div>
     </div>
 
     <!-------------------------------------------------------------------------------------------------------------------->
@@ -103,12 +117,36 @@
 
         <h2 id="fifthQuestion"></h2>
         <br>
-        <img src="assets/images/pinocchio.jpg">
+        <div class="timer"></div>
         <br>
-        <button id="pinocchioQ1">1</button>
-        <button id="pinocchioQ2">2</button>
-        <button id="pinocchioQ3">3</button>
-        <button id="pinocchioQ4">4</button>
+        <div id="correctAnswerPinocchio" class="correctAnswer"></div>
+        <br>
+        <img src="assets/images/pinocchio.jpg" id="pinocchioImage">
+        <br>
+        <div id="pinocchioAnswers">
+            <button id="pinocchioQ1">1</button>
+            <button id="pinocchioQ2">2</button>
+            <button id="pinocchioQ3">3</button>
+            <button id="pinocchioQ4">4</button>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div class="container p-3 mb-2 bg-light text-dark questions" id="gameOver">
+
+        <h1>Disney Trivia Game</h1>
+
+        <h2 id="resultsPage"></h2>
+        <br>
+        <div id="correctAnswersCount"></div>
+        <br>
+        <div id="incorrectAnswersCount"></div>
+        <br>
+        <div id="triviaResults" class="correctAnswer"></div>
+        <br>
+        <img src="assets/images/disney.jpg" id="disneyImage">
+        <br>
+        <button id="playAgain" class="btn btn-success">Play Again</button>
 
     </div>
 
