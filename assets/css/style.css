@@ -9,7 +9,7 @@
     margin: 100px;
 }
 .container h1{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: lightskyblue;
     background-color: black;
@@ -29,4 +29,12 @@ body{
     height: 200px;
     width: 300px;
     margin: 20px;
+}
+.correctAnswer{
+    color: lightseagreen;
+    font-size: 200%;
+}
+button#startButton{
+    margin-bottom: 150px;
+    padding: 25px;
 }
