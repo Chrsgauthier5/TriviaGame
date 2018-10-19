@@ -69,8 +69,9 @@ $(document).ready(function () {
             }
         }
         else {
-            pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
             timeLeft--;
+            pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
+            
         }
     }
 
@@ -127,6 +128,7 @@ $(document).ready(function () {
         triviaPage = 1;
         timeLeft = 30;
         timerId = setInterval(countdown, 1000);
+        pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
         
         $("#introPage").hide();
         $("#Q1").show();
@@ -166,6 +168,7 @@ $(document).ready(function () {
         triviaPage = 2;
         timeLeft = 30;
         timerId = setInterval(countdown, 1000);
+        pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
         
         $("#Q1").hide();
         $("#Q2").show();
@@ -200,11 +203,11 @@ $(document).ready(function () {
 
     function questionThree() {                                                                 //Q3 Toy Story
         $("#toyStoryAnswers").show();
-        
         triviaPage = 3;
         timeLeft = 30;
         timerId = setInterval(countdown, 1000);
-        
+        pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
+
         $("#Q2").hide();
         $("#Q3").show();
         $(".timer").show();
@@ -242,6 +245,7 @@ $(document).ready(function () {
         triviaPage = 4;
         timeLeft = 30;
         timerId = setInterval(countdown, 1000);
+        pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
         
         $("#Q3").hide();
         $("#Q4").show();
@@ -280,6 +284,7 @@ $(document).ready(function () {
         triviaPage = 5;
         timeLeft = 30;
         timerId = setInterval(countdown, 1000);
+        pageTimer.html("Time Reamaining: " + timeLeft + " seconds");
         
         $("#Q4").hide();
         $("#Q5").show();
@@ -322,6 +327,8 @@ $(document).ready(function () {
     $("#playAgain").click(function(){
         $("#gameOver").hide();
         $("#introPage").show();
+        location.reload();
+        
     });
 
 
