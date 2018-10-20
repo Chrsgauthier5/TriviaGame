@@ -9,6 +9,7 @@ $(document).ready(function () {
     var triviaPage;
     var correctAnswers=0;
     var incorrectAnswers=0;
+    
 
     var triviaQuestions = {
         lionKing: {
@@ -123,7 +124,7 @@ $(document).ready(function () {
 
     //---------------------------------------------------------------------------------------------------------------------------------------//
     $("#startButton").click(function () {                                                       //Question 1 on Lion King
-        
+       
         $("#lionKingAnswers").show();
         triviaPage = 1;
         timeLeft = 30;
